@@ -1,0 +1,13 @@
+hardware:
+  compute_capability: '8.6'
+  name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+  vram_gb: 3.99951171875
+training:
+  batch_size: 16
+  gradient_accumulation_steps: 2
+  hidden_channels: 32
+  n_layers: 4
+  n_modes:
+  - 16
+  - 16
+  tile_size: 64

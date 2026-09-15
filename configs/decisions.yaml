@@ -1,0 +1,25 @@
+decisions:
+  D1_study_region:
+    status: "PROVISIONALLY CONFIRMED"
+    value: "41.0°N–43.5°N, -71.5°W–-68.5°W"
+    notes: "Confirmed feasible in Phase 0 audit."
+  
+  D2_acoustic_data:
+    status: "REQUEST IN PARALLEL"
+    value: "Use public data (WhaleMap/OBIS/Robots4Whales) for v1. Request restricted NEFSC data in parallel but do not block v1."
+  
+  D3_label_normalization:
+    status: "CONFIRMED"
+    value: "Retain presence_intensity as the canonical effort-adjusted KDE-derived reference field. Do not min-max normalize it and call the result a probability. Do not force it into a [0,1] presence-probability interpretation."
+  
+  D4_cloud_budget:
+    status: "LOCAL-FIRST"
+    value: "RTX 3050 Ti mandatory for v1. No cloud dependency."
+  
+  D5_gnn_rl_scope:
+    status: "OPTIONAL"
+    value: "Analytical risk + A*/Dijkstra routing is mandatory. GNN and RL are non-gating extensions."
+  
+  D6_experiment_tracking:
+    status: "LOCAL-FIRST"
+    value: "MLflow local is default."

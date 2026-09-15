@@ -1,0 +1,34 @@
+# Python environments
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.nc
+*.h5
+*.pt
+*.pth
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs and Tools
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and outputs
+logs/
+outputs/
+runs/
+tb_logs/
